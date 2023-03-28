@@ -13,7 +13,7 @@ a {
 
 ul {
   list-style: none;
-  padding-left: 0 !important;
+  padding-left: 0;
 }
 
 /* Header */
@@ -253,24 +253,18 @@ ul {
 }
 
 .carousel-indicators {
-  margin-bottom: -2rem !important;
+  margin-bottom: -2rem;
 }
 
 .carousel-indicators [data-bs-target] {
-  width: 8px !important;
-  height: 8px !important;
-  background-color: #d1d6e3 !important;
-  background-clip: padding-box;
-  border: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-radius: 50% !important;
-  opacity: 0.5;
-  transition: opacity 0.6s ease;
-  margin-left: 6px !important;
-  margin-right: 6px !important;
+  width: 8px;
+  height: 8px;
+  background-color: #d1d6e3;
+  border-radius: 50%;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .carousel-indicators .active {
-  background-color: #5e81fe !important;
+  background-color: #5e81fe;
 }
