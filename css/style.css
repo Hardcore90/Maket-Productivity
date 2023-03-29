@@ -268,3 +268,39 @@ ul {
 .carousel-indicators .active {
   background-color: #5e81fe;
 }
+
+/* Plan end */
+/* Custumers start */
+
+.custumers {
+  display: flex;
+  justify-content: center;
+  outline: 1px solid #d8e3fe;
+}
+
+.custumers_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 76.5px;
+  margin: 58px auto;
+}
+
+.custumers_link svg {
+  fill: #d6dae5;
+  transform: scale(1);
+  transition: transform 1s ease;
+}
+
+.custumers_link:hover svg {
+  fill: #5e81fe;
+  transform: scale(1.5);
+  transition: transform 1s ease;
+}
+
+.custumers_link:active svg {
+  fill-opacity: 0.7;
+}
+
+/* Custumers End */
