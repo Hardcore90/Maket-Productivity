@@ -653,3 +653,110 @@ ul {
   background: #3a79ff;
   color: #d2e1ff;
 }
+/* About Us End */
+/* Stats start */
+
+.stats {
+  display: flex;
+  height: 342px;
+}
+
+.stats_procent {
+  width: 100%;
+  background: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
+}
+
+.stats_procent_wrp {
+  /* width: 100%;
+  background: linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%); */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  margin: 66px 90px 66px auto;
+}
+
+.stats_procent_icon {
+  width: 69px;
+  height: 70px;
+  background-image: url(/img/indecator_icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 21px;
+}
+
+.stats_procent_number {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.stats_procent_txt {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  max-width: 260px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.stats_count {
+  width: 100%;
+  background: linear-gradient(101.48deg, #e9efff 41.56%, #e0e9ff 81.53%);
+}
+
+.stats_count_wrp {
+  /* width: 100%;
+  background: linear-gradient(101.48deg, #e9efff 41.56%, #e0e9ff 81.53%); */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin: 66px auto 66px 90px;
+}
+
+.stats_count_icon {
+  width: 78px;
+  height: 69px;
+  background-image: url(/img/people_icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 16px;
+}
+
+.stats_count_number {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.03em;
+  color: #5e80ff;
+  margin-bottom: 9px;
+}
+
+.stats_count_txt {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: #5e80ff;
+  max-width: 260px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* Stats End */
