@@ -154,7 +154,7 @@ ul {
 .plan {
   width: 100%;
   height: 570px;
-  background: url(/img/chart.svg), url(/img/clouds.svg),
+  background: url(../img/chart.svg), url(../img/clouds.svg),
     linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom, center;
@@ -433,7 +433,7 @@ ul {
   max-width: 854px;
   width: 100%;
   height: 620px;
-  background-image: url(/img/illustration.png);
+  background-image: url(../img/illustration.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -449,7 +449,7 @@ ul {
   max-width: 1275px;
   width: 100%;
   min-height: 573px;
-  background-image: url(/img/clouds_about_us.svg);
+  background-image: url(../img/clouds_about_us.svg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 103px auto 171px auto;
@@ -527,19 +527,19 @@ ul {
 }
 
 .about_us_item:nth-child(1) div {
-  background-image: url(/img/overview_icon.png);
+  background-image: url(../img/overview_icon.png);
 }
 
 .about_us_item:nth-child(2) div {
-  background-image: url(/img/Files_icon.png);
+  background-image: url(../img/Files_icon.png);
 }
 
 .about_us_item:nth-child(3) div {
-  background-image: url(/img/chats_icon.png);
+  background-image: url(../img/chats_icon.png);
 }
 
 .about_us_item:nth-child(4) div {
-  background-image: url(/img/events_icon.png);
+  background-image: url(../img/events_icon.png);
 }
 
 .about_us_list_title {
@@ -679,7 +679,7 @@ ul {
 .stats_procent_icon {
   width: 69px;
   height: 70px;
-  background-image: url(/img/indecator_icon.png);
+  background-image: url(../img/indecator_icon.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 21px;
@@ -729,7 +729,7 @@ ul {
 .stats_count_icon {
   width: 78px;
   height: 69px;
-  background-image: url(/img/people_icon.png);
+  background-image: url(../img/people_icon.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 16px;
