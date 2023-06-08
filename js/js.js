@@ -6,7 +6,11 @@ window.addEventListener("DOMContentLoaded", function () {
     prev = document.querySelector(".slider-prev"),
     next = document.querySelector(".slider-next"),
     dotsWrap = document.querySelector(".slider-dots"),
-    dots = document.querySelectorAll(".dot");
+    dots = document.querySelectorAll(".dot"),
+    video = document.querySelector(".video-wrp"),
+    playVideoBtn = document.querySelectorAll(".plan_btn"),
+    darkBlock = document.querySelector(".dark"),
+    closeBtn = document.querySelector(".close");
 
   showSlides(slideIndex);
   function showSlides(n) {
@@ -47,4 +51,18 @@ window.addEventListener("DOMContentLoaded", function () {
       }
     }
   });
+
+  playVideoBtn.forEach((item) =>
+    item.addEventListener("click", function () {
+      video.style.display = "block";
+      darkBlock.style.display = "block";
+      document.body.style.overflow = "hidden";
+
+      closeBtn.addEventListener("click", function () {
+        video.style.display = "none";
+        darkBlock.style.display = "none";
+        document.body.style.overflow = "";
+      });
+    })
+  );
 });

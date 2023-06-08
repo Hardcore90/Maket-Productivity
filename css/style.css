@@ -1,3 +1,17 @@
+.animation {
+  animation-name: animation;
+  animation-duration: 1.7s;
+}
+
+@keyframes animation {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +39,7 @@ ul {
   display: flex;
   justify-content: center;
   max-height: 80px;
-  outline: 1px solid #d8e3fe;
+  border: 1px solid #d8e3fe;
 }
 
 .header_wrp {
@@ -158,14 +172,10 @@ ul {
 .plan {
   width: 100%;
   height: 570px;
-  background: url(../img/chart.svg), url(../img/clouds.svg),
-    linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: bottom, center;
-  object-fit: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .plan_content {
@@ -173,7 +183,7 @@ ul {
   flex-direction: column;
   align-items: center;
   max-width: 581px;
-  margin-top: 91px;
+  margin: 91px auto 53px auto;
 }
 
 .plan_subtitle {
@@ -256,8 +266,18 @@ ul {
   margin-left: -408px;
 }
 
-.carousel-indicators {
-  margin-bottom: -2rem;
+.carousel {
+  max-width: 1441px;
+  width: 100%;
+}
+
+.carousel-item {
+  background: url(../img/chart.svg), url(../img/clouds.svg),
+    linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
+  width: 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom, center;
+  object-fit: cover;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -271,6 +291,52 @@ ul {
 
 .carousel-indicators .active {
   background-color: #5e81fe;
+}
+
+.dark {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 100;
+}
+
+.video-wrp {
+  display: none;
+  z-index: 101;
+  position: absolute;
+  top: 40%;
+  width: 1000px;
+  height: 600px;
+}
+
+.video {
+  border-radius: 10px;
+}
+
+.close {
+  display: inline-block;
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  z-index: 102;
+  transform: rotate(-45deg);
+  font-size: 100px;
+  color: #3a79ff;
+  opacity: 0.2;
+  cursor: pointer;
+  transform: scale3d(1);
+  transition: all 1s ease;
+}
+
+.close:hover {
+  transform: scale3d(1.2);
+  opacity: 0.7;
+  transition: all 1s ease;
 }
 
 /* Plan end */
