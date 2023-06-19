@@ -65,4 +65,13 @@ window.addEventListener("DOMContentLoaded", function () {
       });
     })
   );
+
+  $(".qoutes__inner").slick({
+    arrows: false,
+    dots: true,
+    slidesToShow: 1,
+    infinite: false,
+    variableWidth: true,
+    appendDots: $(".dots_wrp"),
+  });
 });

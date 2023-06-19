@@ -995,3 +995,174 @@ ul {
   -webkit-animation-duration: 2.5s;
 }
 /* Our Resources End */
+/* Quotes Start */
+
+.quotes {
+  background: linear-gradient(180deg, #eaf0ff 0%, #f6f9ff 100%);
+  padding: 109px 0;
+}
+
+.quote__wrp {
+  height: 261px;
+  max-width: 1375px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.quotes__promo {
+  margin-top: 37px;
+  text-align: start;
+  max-width: 333px;
+}
+
+.quotes-promo__subtitle {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d4f9f;
+  margin-bottom: 31px;
+}
+
+.quotes-promo__title {
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+  color: #3d4f9f;
+  margin-bottom: 14px;
+}
+
+.quotes-promo__txt {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: #a4abc8;
+}
+
+.qoutes__inner {
+  min-width: 0;
+}
+
+.quotes-inner__item {
+  padding: 41px 71px 53px 69px;
+  background: #ffffff;
+  border: 1px solid #d8e3fe;
+  margin-right: 64px;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 423px;
+  opacity: 0.45;
+  filter: drop-shadow(0px 15px 25px #d4dcf1);
+}
+
+.quotes-inner-item__txt {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #676f95;
+  margin-bottom: 0;
+  width: 283px;
+  box-sizing: border-box;
+}
+
+.quotes-inner__item img {
+  position: absolute;
+  bottom: -31px;
+  left: 185px;
+}
+
+.dots_wrp {
+  position: absolute;
+  bottom: -47px;
+  left: 665px;
+}
+
+/* Slider*/
+/* Слайдер */
+.slick-slider {
+  width: 910px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  width: 960px;
+  overflow: hidden;
+  min-height: 261px;
+  padding-left: 64px;
+  position: relative;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+  filter: drop-shadow(0px 15px 25px #d4dcf1);
+  opacity: 1;
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-dots li {
+  list-style: none;
+  margin: 0 12px 0 0;
+}
+/* Активная точка */
+.slick-dots li.slick-active button {
+  background: #5283ff;
+  height: 10px;
+  width: 10px;
+}
+/* Элемент точки */
+.slick-dots li button {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  background: #d1d6e3;
+  border-radius: 50%;
+  font-size: 0;
+  border: none;
+}
+
+/* Quotes End */
