@@ -1096,11 +1096,11 @@ ul {
   right: 0;
 }
 /* Слайдер запущен */
-.slick-slider.slick-initialized {
-}
+/* .slick-slider.slick-initialized {
+} */
 /* Слайдер с точками */
-.slick-slider.slick-dotted {
-}
+/* .slick-slider.slick-dotted {
+} */
 /* Ограничивающая оболочка */
 .slick-list {
   width: 960px;
@@ -1114,34 +1114,34 @@ ul {
   display: flex;
 }
 /* Слайд */
-.slick-slide {
-}
+/* .slick-slide {
+} */
 /* Слайд активный (показывается) */
-.slick-slide.slick-active {
-}
+/* .slick-slide.slick-active {
+} */
 /* Слайд основной */
 .slick-slide.slick-current {
   filter: drop-shadow(0px 15px 25px #d4dcf1);
   opacity: 1;
 }
 /* Слайд по центру */
-.slick-slide.slick-center {
-}
+/* .slick-slide.slick-center {
+} */
 /* Клонированный слайд */
-.slick-slide.slick-cloned {
-}
+/* .slick-slide.slick-cloned {
+} */
 /* Стрелка */
-.slick-arrow {
-}
+/* .slick-arrow {
+} */
 /* Стрелка влево */
-.slick-arrow.slick-prev {
-}
+/* .slick-arrow.slick-prev {
+} */
 /* Стрелка вправо */
-.slick-arrow.slick-next {
-}
+/* .slick-arrow.slick-next {
+} */
 /* Стрелка не активная */
-.slick-arrow.slick-disabled {
-}
+/* .slick-arrow.slick-disabled {
+} */
 /* Точки (булиты) */
 .slick-dots {
   display: flex;
@@ -1174,9 +1174,6 @@ ul {
 /* Faq Start */
 .faq {
   padding: 176px 349px;
-}
-
-.faq__wrp {
 }
 
 .faq__subtitle {
